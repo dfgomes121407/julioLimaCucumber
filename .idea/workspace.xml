@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cce4c8a9-e7fc-45c2-b669-4178ba42ab97" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/julioLimaCucumber.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testExercicios/Exercicio01a_Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testExercicios/Exercicio01b_Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testExercicios/Exercicio01c_Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testExercicios/Exercicio1d_Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testExercicios/Exercicio1e_Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/CalculadoraTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Execercio02a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Execercio02b.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Execercio02c.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Execercio02d.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Execercio02e.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Execercio02f.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Exercicio01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Exercicio03a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Exercicio03b.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Exercicio03c.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Exercicio04Ju.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Exercicio04a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Exercicio04b.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Exercicio04c.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Exercicio04d.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Exercicio04e.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/OlaMundo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/TestVariaveis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/TestaCondicionais.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/model/Calculadora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/orientacao_objeto/Autenticavel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/orientacao_objeto/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/orientacao_objeto/Conta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/orientacao_objeto/ControleDeBonificacoes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/orientacao_objeto/Dev.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/orientacao_objeto/Diretor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/orientacao_objeto/Funcionario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/orientacao_objeto/Gerente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/orientacao_objeto/TestaConta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/orientacao_objeto/TestaFuncionario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/META-INF/inm.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testExercicios/Exercicio01a_Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testExercicios/Exercicio01b_Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testExercicios/Exercicio01c_Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testExercicios/Exercicio1d_Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testExercicios/Exercicio1e_Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/CalculadoraTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Execercio02a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Execercio02b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Execercio02c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Execercio02d.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Execercio02e.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Execercio02f.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Exercicio01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Exercicio03a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Exercicio03b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Exercicio03c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Exercicio04Ju.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Exercicio04a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Exercicio04b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Exercicio04c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Exercicio04d.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Exercicio04e.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/OlaMundo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/TestVariaveis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/TestaCondicionais.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/model/Calculadora.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/orientacao_objeto/Autenticavel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/orientacao_objeto/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/orientacao_objeto/Conta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/orientacao_objeto/ControleDeBonificacoes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/orientacao_objeto/Dev.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/orientacao_objeto/Diretor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/orientacao_objeto/Funcionario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/orientacao_objeto/Gerente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/orientacao_objeto/TestaConta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/orientacao_objeto/TestaFuncionario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver/.idea/sonarlint/issuestore/0/9/09b6ed895db13f814e7bd35c5c7651c03d685d8f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver/.idea/sonarlint/issuestore/5/7/5782ba045ff1a2ed84d36149d844b000ef0ce0d6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver/.idea/sonarlint/issuestore/e/e/ee98fd3cc6a872f3d781fe2c1b33f6bfadf92a80" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver/src/test/java/test/InformacoesUsuariosTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver/src/test/java/test/LoginStarTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver/target/test-classes/test/InformacoesUsuariosTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver/target/test-classes/test/LoginStarTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver/target/webdriver-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver/webdriver.iml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="9" />
+    <option name="y" value="19" />
+    <option name="width" value="1347" />
+    <option name="height" value="689" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="julioLimaCucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="julioLimaCucumber" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="julioLimaCucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="julioLimaCucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="julioLimaCucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="julioLimaCucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553516266468" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cce4c8a9-e7fc-45c2-b669-4178ba42ab97" name="Default Changelist" comment="" />
+      <created>1553515480413</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553515480413</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.26153848" />
+      <window_info id="Structure" order="1" sideWeight="0.5023148" side_tool="true" weight="0.1566618" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.3285968" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3285968" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3285968" />
+      <window_info anchor="bottom" id="SonarLint" order="10" weight="0.3285968" />
+      <window_info anchor="bottom" x="127" y="134" width="961" height="570" id="Run" maximized="true" order="11" weight="0.44049734" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32980332" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
