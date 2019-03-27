@@ -4,34 +4,37 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import testCucumber.Hooks;
-import testCucumber.pageobjetcs.LoginPage;
+import testCucumber.pageobjetcs.JulioPage;
 
 public class CadastroSteps {
 
-    LoginPage loginPage = new LoginPage(Hooks.getNavegador());
+    String nome = "Diego";
+    String login = "dieGomes11";
+    String senha = "123456";
+
+    JulioPage julioPage = new JulioPage(Hooks.getNavegador());
 
     @Given("^que eu acesse o site \"([^\"]*)\"$")
-    public void que_eu_acesse_o_site(String arg1) throws Exception {
-        loginPage.setUrl(arg1);
+    public void que_eu_acesse_o_site(String url) throws Exception {
+        julioPage.setUrl(url);
     }
 
     @When("^eu clicar no botao cadastro$")
     public void eu_clicar_no_botao_cadastro() throws Exception {
-        loginPage.clicaEmCadastro();
+        julioPage.clicaEmCadastro();
     }
 
     @When("^eu realizo o cadastro$")
     public void eu_realizo_o_cadastro() throws Exception {
-        loginPage.preencheNome("Diego");
-        loginPage.preencheLogin("dieGomes6");
-        loginPage.preencheSenha("dieGomes");
-        loginPage.clicaEmSave();
-
+        julioPage.preencheNome(nome);
+        julioPage.preencheLoginCadastro(login);
+        julioPage.preencheSenhaCadastro(senha);
+        julioPage.clicaEmSave();
     }
 
     @Then("^eu fico logado no site$")
     public void eu_fico_logado_no_site() throws Exception {
-        loginPage.validaLogin();
+        julioPage.validaLogin();
 
     }
 }

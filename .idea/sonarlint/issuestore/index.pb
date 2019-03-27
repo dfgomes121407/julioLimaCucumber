@@ -11,7 +11,11 @@ e
 5src/test/java/testCucumber/pageobjetcs/LoginPage.java,7\8\78654da9de6d0142b2b7f73d7eaba176ff1ec090
 S
 #src/test/resources/cadastro.feature,b\d\bdcb36a40c8c824d9d5ec9f4eefd5a925416cf67
-`
-0src/test/java/testCucumber/steps/JulioSteps.java,a\b\abdebf99b83e3b2f5a8e3cda070b005614435d7a
 E
 julioLimaCucumber.iml,c\6\c64c1663cc2c88673cc2bc21e9f91b08fa8313d9
+_
+/src/test/java/testCucumber/support/Reports.java,2\f\2f1abe8b5edcb120a814666a854cafb7a7d6b8f6
+]
+-src/test/java/testCucumber/support/Utils.java,0\d\0d1fb1f46504bf535c6c3c5cfdf469ef2694ef9e
+c
+3src/test/java/testCucumber/steps/CadastroSteps.java,0\e\0e1da39862b098faadf5bf466257e068bcee28a1
