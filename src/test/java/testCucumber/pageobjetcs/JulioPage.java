@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import testCucumber.support.Reports;
 import testCucumber.support.Utils;
@@ -44,7 +45,9 @@ public class JulioPage {
     }
 
     public void validaLogin() throws InterruptedException {
-        this.navegador.findElement(By.xpath("/html/body/nav/div/div/ul[1]/li[1]/a"));
+        WebElement logado = this.navegador.findElement(By.xpath("/html/body/nav/div/div/ul[1]/li[1]/a"));
+        String vai = logado.getText();
+        Assert.assertEquals("Hi, Diego",vai);
         Reports.tirarFoto(this.navegador, Utils.getTimestamp());
         Thread.sleep(1000);
     }
@@ -70,5 +73,39 @@ public class JulioPage {
         this.navegador.findElement(By.xpath("//*[@id=\"signinbox\"]/div[2]/a")).click();
         Reports.tirarFoto(this.navegador, Utils.getTimestamp());
         Thread.sleep(1000);
+    }
+
+    public void clicaNoNomeLogado() throws InterruptedException {
+        this.navegador.findElement(By.xpath("/html/body/nav/div/div/ul[1]/li[1]/a")).click();
+        Reports.tirarFoto(this.navegador, Utils.getTimestamp());
+        Thread.sleep(1000);
+    }
+
+    public void clicaEmMoreDataAboutYou() throws InterruptedException{
+        this.navegador.findElement(By.xpath("/html/body/div[1]/div/div/div/div[1]/ul/li[3]/a")).click();
+        Reports.tirarFoto(this.navegador, Utils.getTimestamp());
+        Thread.sleep(1000);
+    }
+
+    public void clicaEmAddMoreData() throws InterruptedException{
+        this.navegador.findElement(By.xpath("//*[@id=\"moredata\"]/div[2]/button")).click();
+        Reports.tirarFoto(this.navegador, Utils.getTimestamp());
+        Thread.sleep(1000);
+    }
+
+    public void selecionaDropDonw(String campo){
+        WebElement dropDonw = this.navegador.findElement(By.xpath("//*[@id=\"addmoredata\"]/div[1]/div[2]/select"));
+        new Select(dropDonw).selectByValue(campo);
+    }
+
+    public void preencheEmail(){
+        this.navegador.findElement(By.xpath("//*[@id=\"addmoredata\"]/div[1]/div[3]/div/input")).sendKeys("diego@teste.com.br");
+        Reports.tirarFoto(this.navegador, Utils.getTimestamp());
+    }
+
+    public void salvaEmailCadastrado() throws InterruptedException{
+        this.navegador.findElement(By.xpath("//*[@id=\"addmoredata\"]/div[2]/a")).click();
+        Thread.sleep(2000);
+        Reports.tirarFoto(this.navegador, Utils.getTimestamp());
     }
 }

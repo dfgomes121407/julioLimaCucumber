@@ -15,3 +15,11 @@ Feature: Udemy
       And clicar no botao SIGN IN
       Then eu fico logado no site
 
+  @AddEmail
+  Scenario: Adiciona E-mail
+    Given que esteja logado no site
+    When eu clicar no mome do usuario logado
+    And eu clicar em More data about you
+    And eu clicar em Add more data
+    Then eu cosigo cadastra um nome e-mail
+
