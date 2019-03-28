@@ -21,5 +21,15 @@ Feature: Udemy
     When eu clicar no mome do usuario logado
     And eu clicar em More data about you
     And eu clicar em Add more data
-    Then eu cosigo cadastra um nome e-mail
+    Then eu cosigo cadastra um e-mail
+
+
+  @AddEmail
+  Scenario: Adiciona Telefone
+    Given que esteja logado no site
+    When eu clicar no mome do usuario logado
+    And eu clicar em More data about you
+    And eu clicar em Add more data
+    Then eu cosigo cadastra um telefone
+
 

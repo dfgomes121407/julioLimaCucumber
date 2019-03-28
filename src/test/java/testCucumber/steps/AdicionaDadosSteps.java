@@ -34,10 +34,19 @@ public class AdicionaDadosSteps {
         julioPage.clicaEmAddMoreData();
     }
 
-    @Then("^eu cosigo cadastra um nome e-mail$")
+    @Then("^eu cosigo cadastra um e-mail$")
     public void eu_cosigo_cadastra_um_nome_e_mail() throws Exception {
         julioPage.selecionaDropDonw("email");
-        julioPage.preencheEmail();
-        julioPage.salvaEmailCadastrado();
+        julioPage.preencheContato("diego@teste.com.br");
+        julioPage.salvaContatoCadastrado();
+        julioPage.validaInformacaoAdicionada();
+    }
+
+    @Then("^eu cosigo cadastra um telefone$")
+    public void eu_cosigo_cadastra_um_telefone() throws Exception {
+        julioPage.selecionaDropDonw("phone");
+        julioPage.preencheContato("11966203921");
+        julioPage.salvaContatoCadastrado();
+        julioPage.validaInformacaoAdicionada();
     }
 }

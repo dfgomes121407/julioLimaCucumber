@@ -41,7 +41,6 @@ public class JulioPage {
 
     public void clicaEmSave() throws InterruptedException {
         this.navegador.findElement(By.xpath("//*[@id=\"signupbox\"]/div[2]/a")).click();
-        Thread.sleep(1000);
     }
 
     public void validaLogin() throws InterruptedException {
@@ -49,13 +48,11 @@ public class JulioPage {
         String vai = logado.getText();
         Assert.assertEquals("Hi, Diego",vai);
         Reports.tirarFoto(this.navegador, Utils.getTimestamp());
-        Thread.sleep(1000);
     }
 
     public void clicaEmSingIn() throws InterruptedException {
         this.navegador.findElement(By.linkText("Sign in")).click();
         Reports.tirarFoto(this.navegador, Utils.getTimestamp());
-        Thread.sleep(1000);
     }
 
     public void preencheLogin(String login) throws InterruptedException {
@@ -64,33 +61,27 @@ public class JulioPage {
 
     public void preencheSenha(String senha) throws InterruptedException {
         this.navegador.findElement(By.xpath("//*[@id=\"signinbox\"]/div[1]/form/div[2]/div[2]/input")).sendKeys(senha);
-        Thread.sleep(1000);
         Reports.tirarFoto(this.navegador, Utils.getTimestamp());
     }
 
     public void efetivaLogin() throws InterruptedException{
-
         this.navegador.findElement(By.xpath("//*[@id=\"signinbox\"]/div[2]/a")).click();
         Reports.tirarFoto(this.navegador, Utils.getTimestamp());
-        Thread.sleep(1000);
     }
 
     public void clicaNoNomeLogado() throws InterruptedException {
         this.navegador.findElement(By.xpath("/html/body/nav/div/div/ul[1]/li[1]/a")).click();
         Reports.tirarFoto(this.navegador, Utils.getTimestamp());
-        Thread.sleep(1000);
     }
 
     public void clicaEmMoreDataAboutYou() throws InterruptedException{
         this.navegador.findElement(By.xpath("/html/body/div[1]/div/div/div/div[1]/ul/li[3]/a")).click();
         Reports.tirarFoto(this.navegador, Utils.getTimestamp());
-        Thread.sleep(1000);
     }
 
     public void clicaEmAddMoreData() throws InterruptedException{
         this.navegador.findElement(By.xpath("//*[@id=\"moredata\"]/div[2]/button")).click();
         Reports.tirarFoto(this.navegador, Utils.getTimestamp());
-        Thread.sleep(1000);
     }
 
     public void selecionaDropDonw(String campo){
@@ -98,14 +89,20 @@ public class JulioPage {
         new Select(dropDonw).selectByValue(campo);
     }
 
-    public void preencheEmail(){
-        this.navegador.findElement(By.xpath("//*[@id=\"addmoredata\"]/div[1]/div[3]/div/input")).sendKeys("diego@teste.com.br");
+    public void preencheContato(String contato){
+        this.navegador.findElement(By.xpath("//*[@id=\"addmoredata\"]/div[1]/div[3]/div/input")).sendKeys(contato);
         Reports.tirarFoto(this.navegador, Utils.getTimestamp());
     }
 
-    public void salvaEmailCadastrado() throws InterruptedException{
+    public void salvaContatoCadastrado() throws InterruptedException{
         this.navegador.findElement(By.xpath("//*[@id=\"addmoredata\"]/div[2]/a")).click();
-        Thread.sleep(2000);
+        Reports.tirarFoto(this.navegador, Utils.getTimestamp());
+    }
+
+    public void validaInformacaoAdicionada(){
+        WebElement mensagemPop = navegador.findElement(By.id("toast-container"));
+        String mensagem = mensagemPop.getText();
+        Assert.assertEquals("Your contact has been added!",mensagem);
         Reports.tirarFoto(this.navegador, Utils.getTimestamp());
     }
 }
