@@ -1,31 +1,35 @@
 package testCucumber.pageobjetcs;
 
 import org.junit.Assert;
+import org.junit.Rule;
+import org.junit.rules.TestName;
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import testCucumber.support.Reports;
-import testCucumber.support.Utils;
+import testCucumber.support.Generator;
+import testCucumber.support.Screenshot;
+
+import java.io.IOException;
 
 public class JulioPage {
     private WebDriver navegador;
+    WebDriverWait aguardar;
 
     public JulioPage(WebDriver navegador) {
         this.navegador = navegador;
+        aguardar = new WebDriverWait(this.navegador, 10);
     }
 
-    public void setUrl(String url) {
-        this.navegador.get(url);
-        Reports.tirarFoto(this.navegador, Utils.getTimestamp());
-    }
+//    ACESSA O SITE
 
-    public void clicaEmCadastro() throws InterruptedException {
-        this.navegador.findElement(By.id("signup")).click();
-    }
+    public void setUrl(String url) {this.navegador.get(url);}
+
+//    EFETUA CADASTRO
+
+    public void clicaEmCadastro() throws InterruptedException {this.navegador.findElement(By.id("signup")).click();}
 
     public void preencheNome(String nome) throws InterruptedException {
         this.navegador.findElement(By.xpath("//input[@placeholder='Tell us what is your name']")).sendKeys(nome);
@@ -37,24 +41,19 @@ public class JulioPage {
 
     public void preencheSenhaCadastro(String senha) throws InterruptedException {
         this.navegador.findElement(By.xpath("//*[@id=\"signupbox\"]/div[1]/form/div[3]/div[2]/input")).sendKeys(senha);
-        Reports.tirarFoto(this.navegador, Utils.getTimestamp());
     }
 
-    public void clicaEmSave() throws InterruptedException {
-        this.navegador.findElement(By.xpath("//*[@id=\"signupbox\"]/div[2]/a")).click();
-    }
+    public void clicaEmSave() throws InterruptedException {this.navegador.findElement(By.xpath("//*[@id=\"signupbox\"]/div[2]/a")).click();}
 
     public void validaLogin() throws InterruptedException {
         WebElement logado = this.navegador.findElement(By.xpath("/html/body/nav/div/div/ul[1]/li[1]/a"));
         String vai = logado.getText();
         Assert.assertEquals("Hi, Diego",vai);
-        Reports.tirarFoto(this.navegador, Utils.getTimestamp());
     }
 
-    public void clicaEmSingIn() throws InterruptedException {
-        this.navegador.findElement(By.linkText("Sign in")).click();
-        Reports.tirarFoto(this.navegador, Utils.getTimestamp());
-    }
+//    EFETUAR LOGIN
+
+    public void clicaEmSingIn() throws InterruptedException {this.navegador.findElement(By.linkText("Sign in")).click();}
 
     public void preencheLogin(String login) throws InterruptedException {
         this.navegador.findElement(By.xpath("//*[@id=\"signinbox\"]/div[1]/form/div[2]/div[1]/input")).sendKeys(login);
@@ -62,28 +61,21 @@ public class JulioPage {
 
     public void preencheSenha(String senha) throws InterruptedException {
         this.navegador.findElement(By.xpath("//*[@id=\"signinbox\"]/div[1]/form/div[2]/div[2]/input")).sendKeys(senha);
-        Reports.tirarFoto(this.navegador, Utils.getTimestamp());
     }
 
-    public void efetivaLogin() throws InterruptedException{
-        this.navegador.findElement(By.xpath("//*[@id=\"signinbox\"]/div[2]/a")).click();
-        Reports.tirarFoto(this.navegador, Utils.getTimestamp());
-    }
+    public void efetivaLogin() throws InterruptedException{this.navegador.findElement(By.xpath("//*[@id=\"signinbox\"]/div[2]/a")).click();}
+
+//    ADD DADOS JÁ LOGADO
 
     public void clicaNoNomeLogado() throws InterruptedException {
-        this.navegador.findElement(By.xpath("/html/body/nav/div/div/ul[1]/li[1]/a")).click();
-        Reports.tirarFoto(this.navegador, Utils.getTimestamp());
+        this.navegador.findElement(By.linkText("Hi, Diego")).click();
     }
 
     public void clicaEmMoreDataAboutYou() throws InterruptedException{
         this.navegador.findElement(By.xpath("/html/body/div[1]/div/div/div/div[1]/ul/li[3]/a")).click();
-        Reports.tirarFoto(this.navegador, Utils.getTimestamp());
     }
 
-    public void clicaEmAddMoreData() throws InterruptedException{
-        this.navegador.findElement(By.xpath("//*[@id=\"moredata\"]/div[2]/button")).click();
-        Reports.tirarFoto(this.navegador, Utils.getTimestamp());
-    }
+    public void clicaEmAddMoreData() throws InterruptedException{this.navegador.findElement(By.xpath("//*[@id=\"moredata\"]/div[2]/button")).click();}
 
     public void selecionaDropDonw(String campo){
         WebElement dropDonw = this.navegador.findElement(By.xpath("//*[@id=\"addmoredata\"]/div[1]/div[2]/select"));
@@ -92,43 +84,42 @@ public class JulioPage {
 
     public void preencheContato(String contato){
         this.navegador.findElement(By.xpath("//*[@id=\"addmoredata\"]/div[1]/div[3]/div/input")).sendKeys(contato);
-        Reports.tirarFoto(this.navegador, Utils.getTimestamp());
     }
 
     public void salvaContatoCadastrado() throws InterruptedException{
         this.navegador.findElement(By.xpath("//*[@id=\"addmoredata\"]/div[2]/a")).click();
-        Reports.tirarFoto(this.navegador, Utils.getTimestamp());
     }
 
-    public void validaPopUpInclusao(){
+    public void validaPopUpInclusao() throws IOException {
         WebElement mensagemPop = navegador.findElement(By.id("toast-container"));
         String mensagem = mensagemPop.getText();
         Assert.assertEquals("Your contact has been added!",mensagem);
-        Reports.tirarFoto(this.navegador, Utils.getTimestamp());
 
-        WebDriverWait aguardar = new WebDriverWait(navegador, 10);
+        String local = "C:\\Users\\t1407dgf\\IdeaProjects\\julioLimaCucumber\\evidencias\\"+ Generator.dataHoraParaArquivo() +"-validaPopUpInclusao.png";
+        Screenshot.tiraScreenshot(navegador,local );
+
         aguardar.until(ExpectedConditions.stalenessOf(mensagemPop));
-
     }
 
-    public void excluiDados(String contato){
-        navegador.findElement(By.xpath("//span[text()=\""+contato+"\"]/following-sibling::a")).click();
-    }
+//    EXCLUI DADOS JA LOGADO
+
+    public void excluiDados(String contato){navegador.findElement(By.xpath("//span[text()=\""+contato+"\"]/following-sibling::a")).click();}
 
     public void clicaBotaoConfirmaExclusao(){
         navegador.switchTo().alert().accept();
     }
 
-    public void validaPopUpExclusao(){
+    public void validaPopUpExclusao() throws IOException {
         WebElement mensagemPop = navegador.findElement(By.id("toast-container"));
         String mensagem = mensagemPop.getText();
         if (mensagem == "Rest in peace, dear phone!" ) {
             Assert.assertEquals("Rest in peace, dear phone!",mensagem);
-            Reports.tirarFoto(this.navegador, Utils.getTimestamp());
         } else {
             Assert.assertEquals("Rest in peace, dear email!",mensagem);
-            Reports.tirarFoto(this.navegador, Utils.getTimestamp());
         }
+
+        String local = "C:\\Users\\t1407dgf\\IdeaProjects\\julioLimaCucumber\\evidencias\\"+ Generator.dataHoraParaArquivo() +"-validaPopUpExclusao.png";
+        Screenshot.tiraScreenshot(navegador,local );
 
         WebDriverWait aguardar = new WebDriverWait(navegador, 10);
         aguardar.until(ExpectedConditions.stalenessOf(mensagemPop));
@@ -137,5 +128,4 @@ public class JulioPage {
     public void efetuaLogoff(){
         navegador.findElement(By.linkText("Logout")).click();
     }
-
 }

@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b5e55dc-2f60-4cf4-9edf-ac0c14a55d0a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/julioLimaCucumber.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../inmetrics/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../inmetrics/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../inmetrics/.idea/misc.xml" beforeDir="false" />
@@ -82,18 +89,18 @@
       <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/orientacao_objeto/Gerente.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/orientacao_objeto/TestaConta.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/orientacao_objeto/TestaFuncionario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f4ff34c85484f85ecbaa566a37ee2f66eb1e5ffe" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f4ff34c85484f85ecbaa566a37ee2f66eb1e5ffe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d1fb1f46504bf535c6c3c5cfdf469ef2694ef9e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2f1abe8b5edcb120a814666a854cafb7a7d6b8f6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCucumber/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCucumber/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCucumber/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCucumber/RunTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/JulioPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/JulioPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCucumber/steps/AdicionaDadosSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCucumber/steps/AdicionaDadosSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCucumber/support/Web.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCucumber/support/Web.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCucumber/support/Reports.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCucumber/support/Utils.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/julio.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/julio.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/julio.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/julio.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testCucumber/RunTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testCucumber/RunTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testCucumber/steps/AdicionaDadosSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testCucumber/steps/AdicionaDadosSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testCucumber/support/Web.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testCucumber/support/Web.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testCucumber/pageobjetcs/JulioPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testCucumber/pageobjetcs/JulioPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testCucumber/support/Reports.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testCucumber/support/Utils.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../webdriver/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../webdriver/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../webdriver/.idea/misc.xml" beforeDir="false" />
@@ -125,11 +132,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/RunTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,45 +147,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/julio.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="136">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/steps/AdicionaDadosSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/steps/ExcluirDadosSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/JulioPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="128" column="59" selection-start-line="128" selection-start-column="59" selection-end-line="128" selection-end-column="59" />
+            <state relative-caret-position="289">
+              <caret line="120" column="128" selection-start-line="120" selection-start-column="128" selection-end-line="120" selection-end-column="128" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5607#5608#0" expanded="true" />
-                <element signature="e#5675#5676#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -210,10 +191,13 @@
         <option value="$PROJECT_DIR$/src/test/java/testCucumber/AddEmail.java" />
         <option value="$PROJECT_DIR$/src/test/java/testCucumber/support/Web.java" />
         <option value="$PROJECT_DIR$/src/test/java/testCucumber/RunTest.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/julio.feature" />
         <option value="$PROJECT_DIR$/src/test/java/testCucumber/Hooks.java" />
         <option value="$PROJECT_DIR$/src/test/java/testCucumber/steps/AdicionaDadosSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/testCucumber/steps/ExcluirDadosSteps.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/testCucumber/support/Screenshot.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/julio.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/testCucumber/support/Generator.java" />
         <option value="$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/JulioPage.java" />
       </list>
     </option>
@@ -239,7 +223,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,7 +233,7 @@
             <path>
               <item name="julioLimaCucumber" type="b2602c69:ProjectViewProjectNode" />
               <item name="julioLimaCucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="Evidences" type="462c0819:PsiDirectoryNode" />
+              <item name="evidencias" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="julioLimaCucumber" type="b2602c69:ProjectViewProjectNode" />
@@ -307,11 +290,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553863822177" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553882575473" />
     <property name="settings.editor.selected.configurable" value="MTCustomThemeConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -385,34 +370,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunTest - 2019.03.28 at 09h 07m 10s.xml">
+    <history-entry file="RunTest - 2019.03.29 at 11h 09m 13s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2019.03.28 at 11h 23m 42s.xml">
+    <history-entry file="RunTest - 2019.03.29 at 11h 18m 16s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2019.03.28 at 11h 26m 30s.xml">
+    <history-entry file="RunTest - 2019.03.29 at 11h 20m 10s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2019.03.28 at 11h 36m 43s.xml">
+    <history-entry file="RunTest - 2019.03.29 at 11h 24m 07s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2019.03.28 at 11h 48m 57s.xml">
+    <history-entry file="RunTest - 2019.03.29 at 11h 36m 10s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2019.03.28 at 14h 22m 19s.xml">
+    <history-entry file="RunTest - 2019.03.29 at 11h 40m 37s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2019.03.29 at 09h 25m 13s.xml">
+    <history-entry file="RunTest - 2019.03.29 at 14h 52m 42s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2019.03.29 at 09h 38m 50s.xml">
+    <history-entry file="RunTest - 2019.03.29 at 14h 54m 33s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2019.03.29 at 09h 45m 25s.xml">
+    <history-entry file="RunTest - 2019.03.29 at 14h 58m 25s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2019.03.29 at 09h 46m 43s.xml">
+    <history-entry file="RunTest - 2019.03.29 at 15h 02m 02s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -420,7 +405,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.21538462" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.37327936" />
       <window_info id="Structure" order="1" sideWeight="0.5023148" side_tool="true" weight="0.1566618" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -449,7 +434,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.21214575" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.37327936" />
       <window_info id="Structure" order="1" sideWeight="0.5023148" side_tool="true" weight="0.1566618" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -467,7 +452,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3285968" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32774675" />
       <window_info anchor="bottom" id="SonarLint" order="10" weight="0.3285968" />
-      <window_info anchor="bottom" x="0" y="391" width="1279" height="289" id="Run" order="11" type="FLOATING" weight="0.5991903" />
+      <window_info anchor="bottom" x="0" y="326" width="1279" height="354" id="Run" order="11" type="FLOATING" weight="0.5991903" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -479,39 +464,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Evidences/26032019055722.png" />
-    <entry file="file://$PROJECT_DIR$/Evidences/26032019055719.png" />
-    <entry file="file://$PROJECT_DIR$/Evidences/26032019055714.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/support/Reports.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/support/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="300" column="30" selection-start-line="300" selection-start-column="30" selection-end-line="300" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Evidences/27032019025037.png" />
-    <entry file="file://$PROJECT_DIR$/Evidences/27032019025229.png" />
-    <entry file="file://$PROJECT_DIR$/Evidences/27032019025230.png" />
     <entry file="file://$PROJECT_DIR$/Evidences/27032019025233.png" />
     <entry file="file://$PROJECT_DIR$/Evidences/27032019040833.png" />
     <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/AddEmail.java" />
@@ -530,16 +482,6 @@
     <entry file="file://$PROJECT_DIR$/Evidences/27032019054629.png" />
     <entry file="file://$PROJECT_DIR$/Evidences/27032019054631.png" />
     <entry file="file://$PROJECT_DIR$/Evidences/27032019054633.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/steps/LoginSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/steps/CadastroSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-68">
@@ -563,24 +505,16 @@
     <entry file="file://$PROJECT_DIR$/Evidences/28032019113640.png" />
     <entry file="file://$PROJECT_DIR$/Evidences/28032019113641.png" />
     <entry file="file://$PROJECT_DIR$/Evidences/28032019113642.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/julio.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Evidences/29032019093849.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Evidences/29032019093848.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Evidences/29032019093849.png" />
+    <entry file="file://$PROJECT_DIR$/Evidences/29032019093848.png" />
+    <entry file="file://$PROJECT_DIR$/Evidences/29032019095001.png" />
+    <entry file="file://$PROJECT_DIR$/Evidences/29032019095000.png" />
     <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/Hooks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
+            <element signature="e#355#356#0" expanded="true" />
             <element signature="e#387#388#0" expanded="true" />
           </folding>
         </state>
@@ -588,25 +522,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/support/Web.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+        <state relative-caret-position="221">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/steps/AdicionaDadosSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/support/Screenshot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+        <state relative-caret-position="238">
+          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/RunTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="442">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/steps/LoginSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -615,22 +556,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/steps/ExcluirDadosSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/JulioPage.java">
+    <entry file="file://$PROJECT_DIR$/evidencias/29542019025424class org.junit.rules.TestName.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evidencias/29402019114027null.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/support/Generator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="128" column="59" selection-start-line="128" selection-start-column="59" selection-end-line="128" selection-end-column="59" />
+        <state relative-caret-position="136">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5607#5608#0" expanded="true" />
-            <element signature="e#5675#5676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/steps/AdicionaDadosSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/julio.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/JulioPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="120" column="128" selection-start-line="120" selection-start-column="128" selection-end-line="120" selection-end-column="128" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evidencias/29032019150139-validaPopUpInclusao.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evidencias/29032019150153-validaPopUpExclusao.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/RunTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
