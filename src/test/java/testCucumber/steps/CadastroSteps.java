@@ -9,7 +9,7 @@ import testCucumber.pageobjetcs.JulioPage;
 public class CadastroSteps {
 
     String nome = "Diego";
-    String login = "dieGomes11";
+    String login = "dieGomes13";
     String senha = "123456";
 
     JulioPage julioPage = new JulioPage(Hooks.getNavegador());
@@ -35,6 +35,5 @@ public class CadastroSteps {
     @Then("^eu fico logado no site$")
     public void eu_fico_logado_no_site() throws Exception {
         julioPage.validaLogin();
-
     }
 }

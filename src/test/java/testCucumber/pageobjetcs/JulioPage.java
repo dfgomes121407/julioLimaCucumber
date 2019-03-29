@@ -1,8 +1,6 @@
 package testCucumber.pageobjetcs;
 
 import org.junit.Assert;
-import org.junit.Rule;
-import org.junit.rules.TestName;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -45,10 +43,12 @@ public class JulioPage {
 
     public void clicaEmSave() throws InterruptedException {this.navegador.findElement(By.xpath("//*[@id=\"signupbox\"]/div[2]/a")).click();}
 
-    public void validaLogin() throws InterruptedException {
-        WebElement logado = this.navegador.findElement(By.xpath("/html/body/nav/div/div/ul[1]/li[1]/a"));
-        String vai = logado.getText();
-        Assert.assertEquals("Hi, Diego",vai);
+    public void validaLogin() throws InterruptedException, IOException {
+        WebElement logado = this.navegador.findElement(By.className("me"));
+        String validacao = logado.getText();
+        Screenshot.tiraScreenshot(navegador,Generator.dataHoraParaArquivo(),"validaLogin");
+
+        Assert.assertEquals("Hi, Diego",validacao);
     }
 
 //    EFETUAR LOGIN
@@ -95,8 +95,7 @@ public class JulioPage {
         String mensagem = mensagemPop.getText();
         Assert.assertEquals("Your contact has been added!",mensagem);
 
-        String local = "C:\\Users\\t1407dgf\\IdeaProjects\\julioLimaCucumber\\evidencias\\"+ Generator.dataHoraParaArquivo() +"-validaPopUpInclusao.png";
-        Screenshot.tiraScreenshot(navegador,local );
+        Screenshot.tiraScreenshot(navegador,Generator.dataHoraParaArquivo(),"validaPopUpInclusao");
 
         aguardar.until(ExpectedConditions.stalenessOf(mensagemPop));
     }
@@ -118,8 +117,8 @@ public class JulioPage {
             Assert.assertEquals("Rest in peace, dear email!",mensagem);
         }
 
-        String local = "C:\\Users\\t1407dgf\\IdeaProjects\\julioLimaCucumber\\evidencias\\"+ Generator.dataHoraParaArquivo() +"-validaPopUpExclusao.png";
-        Screenshot.tiraScreenshot(navegador,local );
+        Screenshot.tiraScreenshot(navegador,Generator.dataHoraParaArquivo(),"validaPopUpExclusao");
+
 
         WebDriverWait aguardar = new WebDriverWait(navegador, 10);
         aguardar.until(ExpectedConditions.stalenessOf(mensagemPop));
