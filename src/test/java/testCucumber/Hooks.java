@@ -15,10 +15,10 @@ public class Hooks {
         navegador = Web.getChromeDirver();
     }
 
-//    @After
-//    public void tearDonw(){
-//        navegador.quit();
-//    }
+    @After
+    public void tearDonw(){
+        navegador.quit();
+    }
 
     public static WebDriver getNavegador(){
         return navegador;

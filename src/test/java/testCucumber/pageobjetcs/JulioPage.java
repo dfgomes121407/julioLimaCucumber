@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import testCucumber.support.Reports;
@@ -99,10 +100,42 @@ public class JulioPage {
         Reports.tirarFoto(this.navegador, Utils.getTimestamp());
     }
 
-    public void validaInformacaoAdicionada(){
+    public void validaPopUpInclusao(){
         WebElement mensagemPop = navegador.findElement(By.id("toast-container"));
         String mensagem = mensagemPop.getText();
         Assert.assertEquals("Your contact has been added!",mensagem);
         Reports.tirarFoto(this.navegador, Utils.getTimestamp());
+
+        WebDriverWait aguardar = new WebDriverWait(navegador, 10);
+        aguardar.until(ExpectedConditions.stalenessOf(mensagemPop));
+
     }
+
+    public void excluiDados(String contato){
+        navegador.findElement(By.xpath("//span[text()=\""+contato+"\"]/following-sibling::a")).click();
+    }
+
+    public void clicaBotaoConfirmaExclusao(){
+        navegador.switchTo().alert().accept();
+    }
+
+    public void validaPopUpExclusao(){
+        WebElement mensagemPop = navegador.findElement(By.id("toast-container"));
+        String mensagem = mensagemPop.getText();
+        if (mensagem == "Rest in peace, dear phone!" ) {
+            Assert.assertEquals("Rest in peace, dear phone!",mensagem);
+            Reports.tirarFoto(this.navegador, Utils.getTimestamp());
+        } else {
+            Assert.assertEquals("Rest in peace, dear email!",mensagem);
+            Reports.tirarFoto(this.navegador, Utils.getTimestamp());
+        }
+
+        WebDriverWait aguardar = new WebDriverWait(navegador, 10);
+        aguardar.until(ExpectedConditions.stalenessOf(mensagemPop));
+    }
+
+    public void efetuaLogoff(){
+        navegador.findElement(By.linkText("Logout")).click();
+    }
+
 }

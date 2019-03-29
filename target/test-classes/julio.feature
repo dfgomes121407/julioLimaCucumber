@@ -15,7 +15,7 @@ Feature: Udemy
       And clicar no botao SIGN IN
       Then eu fico logado no site
 
-  @AddEmail
+  @AddContato
   Scenario: Adiciona E-mail
     Given que esteja logado no site
     When eu clicar no mome do usuario logado
@@ -24,7 +24,7 @@ Feature: Udemy
     Then eu cosigo cadastra um e-mail
 
 
-  @AddEmail
+  @AddContato
   Scenario: Adiciona Telefone
     Given que esteja logado no site
     When eu clicar no mome do usuario logado
@@ -32,4 +32,9 @@ Feature: Udemy
     And eu clicar em Add more data
     Then eu cosigo cadastra um telefone
 
-
+  @exclui
+  Scenario: Exclui Contato
+    Given que esteja logado no site
+    When eu clicar no mome do usuario logado
+    And eu clicar em More data about you
+    Then eu cosigo excluir um contato

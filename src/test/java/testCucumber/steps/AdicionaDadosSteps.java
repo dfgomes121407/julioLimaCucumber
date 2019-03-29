@@ -39,7 +39,7 @@ public class AdicionaDadosSteps {
         julioPage.selecionaDropDonw("email");
         julioPage.preencheContato("diego@teste.com.br");
         julioPage.salvaContatoCadastrado();
-        julioPage.validaInformacaoAdicionada();
+        julioPage.validaPopUpInclusao();
     }
 
     @Then("^eu cosigo cadastra um telefone$")
@@ -47,6 +47,7 @@ public class AdicionaDadosSteps {
         julioPage.selecionaDropDonw("phone");
         julioPage.preencheContato("11966203921");
         julioPage.salvaContatoCadastrado();
-        julioPage.validaInformacaoAdicionada();
+        julioPage.validaPopUpInclusao();
+        julioPage.efetuaLogoff();
     }
 }
