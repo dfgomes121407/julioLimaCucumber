@@ -9,7 +9,7 @@ import testCucumber.pageobjetcs.JulioPage;
 public class CadastroSteps {
 
     String nome = "Diego";
-    String login = "dieGomes13";
+    String login = "dieGomes14";
     String senha = "123456";
 
     JulioPage julioPage = new JulioPage(Hooks.getNavegador());

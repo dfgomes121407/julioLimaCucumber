@@ -21,3 +21,5 @@ e
 5src/test/java/testCucumber/pageobjetcs/JulioPage.java,f\4\f4ff34c85484f85ecbaa566a37ee2f66eb1e5ffe
 a
 1src/test/java/testCucumber/support/Generator.java,b\c\bcaddc88dd91a69c1d7715999b24bf050b70d51a
+b
+2src/test/java/testCucumber/support/Screenshot.java,3\1\3113a078f4f43414c3066f10da0e5eb16c912134

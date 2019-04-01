@@ -46,7 +46,7 @@ public class JulioPage {
     public void validaLogin() throws InterruptedException, IOException {
         WebElement logado = this.navegador.findElement(By.className("me"));
         String validacao = logado.getText();
-        Screenshot.tiraScreenshot(navegador,Generator.dataHoraParaArquivo(),"validaLogin");
+        Screenshot.tiraScreenshot(navegador,Generator.dataHoraParaArquivo(),Screenshot.getNameMethod());
 
         Assert.assertEquals("Hi, Diego",validacao);
     }
@@ -95,7 +95,7 @@ public class JulioPage {
         String mensagem = mensagemPop.getText();
         Assert.assertEquals("Your contact has been added!",mensagem);
 
-        Screenshot.tiraScreenshot(navegador,Generator.dataHoraParaArquivo(),"validaPopUpInclusao");
+        Screenshot.tiraScreenshot(navegador,Generator.dataHoraParaArquivo(),Screenshot.getNameMethod());
 
         aguardar.until(ExpectedConditions.stalenessOf(mensagemPop));
     }
@@ -117,8 +117,7 @@ public class JulioPage {
             Assert.assertEquals("Rest in peace, dear email!",mensagem);
         }
 
-        Screenshot.tiraScreenshot(navegador,Generator.dataHoraParaArquivo(),"validaPopUpExclusao");
-
+        Screenshot.tiraScreenshot(navegador,Generator.dataHoraParaArquivo(),Screenshot.getNameMethod());
 
         WebDriverWait aguardar = new WebDriverWait(navegador, 10);
         aguardar.until(ExpectedConditions.stalenessOf(mensagemPop));

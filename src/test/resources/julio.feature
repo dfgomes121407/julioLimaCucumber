@@ -12,7 +12,7 @@ Feature: Udemy
       And preencher os campos Login e Password
       And clicar no botao SIGN IN
       Then eu fico logado no site
-  @exclui
+
   Scenario: Adiciona E-mail
     Given que esteja logado no site
     When eu clicar no mome do usuario logado
