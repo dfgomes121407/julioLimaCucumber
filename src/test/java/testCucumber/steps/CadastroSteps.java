@@ -8,15 +8,11 @@ import testCucumber.pageobjetcs.JulioPage;
 
 public class CadastroSteps {
 
-    String nome = "Diego";
-    String login = "dieGomes14";
-    String senha = "123456";
-
     JulioPage julioPage = new JulioPage(Hooks.getNavegador());
 
     @Given("^que eu acesse o site \"([^\"]*)\"$")
     public void que_eu_acesse_o_site(String url) throws Exception {
-        julioPage.setUrl(url);
+        julioPage.acessaSite(url);
     }
 
     @When("^eu clicar no botao cadastro$")
@@ -24,11 +20,15 @@ public class CadastroSteps {
         julioPage.clicaEmCadastro();
     }
 
-    @When("^eu realizo o cadastro$")
-    public void eu_realizo_o_cadastro() throws Exception {
+    @When("^eu preencher os campos nome com \"([^\"]*)\", login com \"([^\"]*)\" e senha com \"([^\"]*)\"$")
+    public void eu_preencher_os_campos_nome_com_login_com_e_senha_com(String nome, String login, String senha) throws Exception {
         julioPage.preencheNome(nome);
         julioPage.preencheLoginCadastro(login);
         julioPage.preencheSenhaCadastro(senha);
+    }
+
+    @When("^eu clicar em SAVE$")
+    public void eu_clicar_em_SAVE() throws Exception {
         julioPage.clicaEmSave();
     }
 

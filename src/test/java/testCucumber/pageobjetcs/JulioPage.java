@@ -21,13 +21,18 @@ public class JulioPage {
         aguardar = new WebDriverWait(this.navegador, 10);
     }
 
-//    ACESSA O SITE
+    //    ACESSA O SITE
+    public void acessaSite(String url) throws IOException {
+        this.navegador.get(url);
+        Screenshot.tiraScreenshot(navegador,Generator.dataHoraParaArquivo(),Screenshot.getNameMethod());
 
-    public void setUrl(String url) {this.navegador.get(url);}
-
-//    EFETUA CADASTRO
-
-    public void clicaEmCadastro() throws InterruptedException {this.navegador.findElement(By.id("signup")).click();}
+    }
+    /**
+     * Metodos que efetuam o cadastro no site
+     */
+    public void clicaEmCadastro() throws InterruptedException {
+        this.navegador.findElement(By.id("signup")).click();
+    }
 
     public void preencheNome(String nome) throws InterruptedException {
         this.navegador.findElement(By.xpath("//input[@placeholder='Tell us what is your name']")).sendKeys(nome);
@@ -37,11 +42,14 @@ public class JulioPage {
         this.navegador.findElement(By.xpath("//*[@id=\"signupbox\"]/div[1]/form/div[3]/div[1]/input")).sendKeys(login);
     }
 
-    public void preencheSenhaCadastro(String senha) throws InterruptedException {
+    public void preencheSenhaCadastro(String senha) throws InterruptedException, IOException {
         this.navegador.findElement(By.xpath("//*[@id=\"signupbox\"]/div[1]/form/div[3]/div[2]/input")).sendKeys(senha);
+        Screenshot.tiraScreenshot(navegador,Generator.dataHoraParaArquivo(),Screenshot.getNameMethod());
     }
 
-    public void clicaEmSave() throws InterruptedException {this.navegador.findElement(By.xpath("//*[@id=\"signupbox\"]/div[2]/a")).click();}
+    public void clicaEmSave() throws InterruptedException {
+        this.navegador.findElement(By.xpath("//*[@id=\"signupbox\"]/div[2]/a")).click();
+    }
 
     public void validaLogin() throws InterruptedException, IOException {
         WebElement logado = this.navegador.findElement(By.className("me"));
@@ -50,10 +58,13 @@ public class JulioPage {
 
         Assert.assertEquals("Hi, Diego",validacao);
     }
+    /**
+     * Metodos que fazem login no site
+     */
 
-//    EFETUAR LOGIN
-
-    public void clicaEmSingIn() throws InterruptedException {this.navegador.findElement(By.linkText("Sign in")).click();}
+    public void clicaEmSingIn() throws InterruptedException {
+        this.navegador.findElement(By.linkText("Sign in")).click();
+    }
 
     public void preencheLogin(String login) throws InterruptedException {
         this.navegador.findElement(By.xpath("//*[@id=\"signinbox\"]/div[1]/form/div[2]/div[1]/input")).sendKeys(login);
@@ -63,10 +74,12 @@ public class JulioPage {
         this.navegador.findElement(By.xpath("//*[@id=\"signinbox\"]/div[1]/form/div[2]/div[2]/input")).sendKeys(senha);
     }
 
-    public void efetivaLogin() throws InterruptedException{this.navegador.findElement(By.xpath("//*[@id=\"signinbox\"]/div[2]/a")).click();}
-
-//    ADD DADOS JÁ LOGADO
-
+    public void efetivaLogin() throws InterruptedException{
+        this.navegador.findElement(By.xpath("//*[@id=\"signinbox\"]/div[2]/a")).click();
+    }
+    /**
+     * Metodos que adicionam dados de contato apos login no site
+     */
     public void clicaNoNomeLogado() throws InterruptedException {
         this.navegador.findElement(By.linkText("Hi, Diego")).click();
     }
@@ -90,10 +103,10 @@ public class JulioPage {
         this.navegador.findElement(By.xpath("//*[@id=\"addmoredata\"]/div[2]/a")).click();
     }
 
-    public void validaPopUpInclusao() throws IOException {
+    public void validaPopUpInclusao(String texto) throws IOException {
         WebElement mensagemPop = navegador.findElement(By.id("toast-container"));
         String mensagem = mensagemPop.getText();
-        Assert.assertEquals("Your contact has been added!",mensagem);
+        Assert.assertEquals(texto,mensagem);
 
         Screenshot.tiraScreenshot(navegador,Generator.dataHoraParaArquivo(),Screenshot.getNameMethod());
 

@@ -15,7 +15,7 @@ public class LoginSteps {
 
     @Given("^que esteja cadastrado no site \"([^\"]*)\"$")
     public void que_esteja_cadastrado_no_site(String url) throws Exception {
-        julioPage.setUrl(url);
+        julioPage.acessaSite(url);
     }
 
     @When("^eu clicar em Sign in$")
@@ -23,8 +23,8 @@ public class LoginSteps {
         julioPage.clicaEmSingIn();
     }
 
-    @When("^preencher os campos Login e Password$")
-    public void preencher_os_campos_e() throws Exception {
+    @When("^preencher os campos login com \"([^\"]*)\" e Password com \"([^\"]*)\"$")
+    public void preencher_os_campos_login_com_e_Password_com(String login, String senha) throws Exception {
         julioPage.preencheLogin(login);
         julioPage.preencheSenha(senha);
     }

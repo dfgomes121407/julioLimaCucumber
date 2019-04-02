@@ -1,5 +1,6 @@
 package testCucumber.steps;
 
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -12,7 +13,7 @@ public class AdicionaDadosSteps {
 
     @Given("^que esteja logado no site$")
     public void que_esja_logado_no_site() throws Exception {
-        julioPage.setUrl("http://www.juliodelima.com.br/taskit/");
+        julioPage.acessaSite("http://www.juliodelima.com.br/taskit/");
         julioPage.clicaEmSingIn();
         julioPage.preencheLogin("dieGomes11");
         julioPage.preencheSenha("123456");
@@ -34,20 +35,23 @@ public class AdicionaDadosSteps {
         julioPage.clicaEmAddMoreData();
     }
 
-    @Then("^eu cosigo cadastra um e-mail$")
-    public void eu_cosigo_cadastra_um_nome_e_mail() throws Exception {
-        julioPage.selecionaDropDonw("email");
-        julioPage.preencheContato("diego@teste.com.br");
-        julioPage.salvaContatoCadastrado();
-        julioPage.validaPopUpInclusao();
+    @Then("^eu cosigo selecionar o tipo com \"([^\"]*)\"$")
+    public void eu_cosigo_selecionar_o_tipo_com(String tipo) throws Exception {
+        julioPage.selecionaDropDonw(tipo);
     }
 
-    @Then("^eu cosigo cadastra um telefone$")
-    public void eu_cosigo_cadastra_um_telefone() throws Exception {
-        julioPage.selecionaDropDonw("phone");
-        julioPage.preencheContato("11966203921");
+    @Then("^eu consigo preencher com o campo contacto com \"([^\"]*)\"$")
+    public void eu_consigo_preencher_com_o_campo_contacto_com(String contato) throws Exception {
+        julioPage.preencheContato(contato);
+    }
+
+    @And("^eu clico em SAVE$")
+    public void euClicoEmSAVE() throws InterruptedException {
         julioPage.salvaContatoCadastrado();
-        julioPage.validaPopUpInclusao();
-        julioPage.efetuaLogoff();
+    }
+
+    @Then("^eu vejo um pop com a mensagem \"([^\"]*)\"$")
+    public void eu_vejo_um_pop_com_a_mensagem(String mensagem) throws Exception {
+        julioPage.validaPopUpInclusao(mensagem);
     }
 }
