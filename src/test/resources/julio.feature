@@ -1,4 +1,4 @@
-Feature: Udemy
+Feature: Curso de automacao demy
 
   Scenario: Efetua cadastro
     Given que eu acesse o site "http://www.juliodelima.com.br/taskit/"

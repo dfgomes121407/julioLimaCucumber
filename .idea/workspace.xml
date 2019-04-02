@@ -82,19 +82,46 @@
       <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/orientacao_objeto/Gerente.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/orientacao_objeto/TestaConta.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/orientacao_objeto/TestaFuncionario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d285887bc2f369e41f87a3019927669d353c599" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d285887bc2f369e41f87a3019927669d353c599" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e1da39862b098faadf5bf466257e068bcee28a1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e1da39862b098faadf5bf466257e068bcee28a1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bcaddc88dd91a69c1d7715999b24bf050b70d51a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bcaddc88dd91a69c1d7715999b24bf050b70d51a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f4ff34c85484f85ecbaa566a37ee2f66eb1e5ffe" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f4ff34c85484f85ecbaa566a37ee2f66eb1e5ffe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evidencias/01042019172207validaLogin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/evidencias/01042019172214validaLogin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/evidencias/01042019172222validaPopUpInclusao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/evidencias/01042019172238validaPopUpInclusao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/evidencias/01042019172255validaPopUpExclusao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/evidencias/02042019150031validaLogin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/evidencias/02042019150038validaLogin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/evidencias/02042019150046validaPopUpInclusao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/evidencias/02042019150100validaPopUpInclusao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/evidencias/02042019150114validaPopUpExclusao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/julioLimaCucumber.iml" beforeDir="false" afterPath="$PROJECT_DIR$/julioLimaCucumber.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCucumber/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCucumber/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCucumber/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCucumber/RunTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/JulioPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/JulioPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCucumber/steps/AdicionaDadosSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCucumber/steps/AdicionaDadosSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testCucumber/steps/CadastroSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCucumber/steps/CadastroSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCucumber/steps/ExcluirDadosSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCucumber/steps/ExcluirDadosSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCucumber/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCucumber/steps/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCucumber/support/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCucumber/support/Generator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testCucumber/support/Screenshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCucumber/support/Screenshot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCucumber/support/Web.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCucumber/support/Web.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/julio.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/julio.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/julio.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/julio.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testCucumber/pageobjetcs/JulioPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testCucumber/pageobjetcs/JulioPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testCucumber/support/Screenshot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testCucumber/support/Screenshot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testCucumber/Hooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testCucumber/RunTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testCucumber/pageobjetcs/JulioPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testCucumber/steps/AdicionaDadosSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testCucumber/steps/CadastroSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testCucumber/steps/ExcluirDadosSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testCucumber/steps/LoginSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testCucumber/support/Generator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testCucumber/support/Screenshot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testCucumber/support/Web.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../webdriver/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../webdriver/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../webdriver/.idea/misc.xml" beforeDir="false" />
@@ -128,7 +155,17 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/julio.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="28" selection-start-column="28" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -159,9 +196,9 @@
         <option value="$PROJECT_DIR$/src/test/java/testCucumber/support/Generator.java" />
         <option value="$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/JulioPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/testCucumber/support/Screenshot.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/julio.feature" />
         <option value="$PROJECT_DIR$/src/test/java/testCucumber/RunTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/testCucumber/steps/CadastroSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/julio.feature" />
       </list>
     </option>
   </component>
@@ -186,17 +223,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="julioLimaCucumber" type="b2602c69:ProjectViewProjectNode" />
               <item name="julioLimaCucumber" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="julioLimaCucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="julioLimaCucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="evidencias" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="julioLimaCucumber" type="b2602c69:ProjectViewProjectNode" />
@@ -253,8 +287,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -366,6 +398,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" weight="0.3319838" />
       <window_info id="Structure" order="1" sideWeight="0.5023148" side_tool="true" weight="0.1566618" />
@@ -540,13 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/julio.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/JulioPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
@@ -574,6 +600,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/julio.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
