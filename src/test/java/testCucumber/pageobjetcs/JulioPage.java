@@ -112,10 +112,12 @@ public class JulioPage {
 
         aguardar.until(ExpectedConditions.stalenessOf(mensagemPop));
     }
-
-//    EXCLUI DADOS JA LOGADO
-
-    public void excluiDados(String contato){navegador.findElement(By.xpath("//span[text()=\""+contato+"\"]/following-sibling::a")).click();}
+    /**
+     * Metodos que exclui dados de contato apos login no site
+     */
+    public void excluiDados(String contato){
+        navegador.findElement(By.xpath("//span[text()=\""+contato+"\"]/following-sibling::a")).click();
+    }
 
     public void clicaBotaoConfirmaExclusao(){
         navegador.switchTo().alert().accept();
@@ -124,10 +126,11 @@ public class JulioPage {
     public void validaPopUpExclusao() throws IOException {
         WebElement mensagemPop = navegador.findElement(By.id("toast-container"));
         String mensagem = mensagemPop.getText();
-        if (mensagem == "Rest in peace, dear phone!" ) {
-            Assert.assertEquals("Rest in peace, dear phone!",mensagem);
-        } else {
-            Assert.assertEquals("Rest in peace, dear email!",mensagem);
+        if (mensagem.equals("Rest in peace, dear phone!")){
+            Assert.assertEquals("Rest in peace, dear phone!", mensagem);
+        }
+        else {
+            Assert.assertEquals("Rest in peace, dear email!", mensagem);
         }
 
         Screenshot.tiraScreenshot(navegador,Generator.dataHoraParaArquivo(),Screenshot.getNameMethod());

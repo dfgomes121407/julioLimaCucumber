@@ -15,7 +15,7 @@ public class AdicionaDadosSteps {
     public void que_esja_logado_no_site() throws Exception {
         julioPage.acessaSite("http://www.juliodelima.com.br/taskit/");
         julioPage.clicaEmSingIn();
-        julioPage.preencheLogin("dieGomes11");
+        julioPage.preencheLogin("dieGomes22");
         julioPage.preencheSenha("123456");
         julioPage.efetivaLogin();
     }
