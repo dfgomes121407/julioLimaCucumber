@@ -12,28 +12,22 @@ public class CadastroSteps {
 
     @Given("^que eu acesse o site \"([^\"]*)\"$")
     public void que_eu_acesse_o_site(String url) throws Exception {
-        julioPage.acessaSite(url);
     }
 
     @When("^eu clicar no botao cadastro$")
     public void eu_clicar_no_botao_cadastro() throws Exception {
-        julioPage.clicaEmCadastro();
     }
 
     @When("^eu preencher os campos nome com \"([^\"]*)\", login com \"([^\"]*)\" e senha com \"([^\"]*)\"$")
     public void eu_preencher_os_campos_nome_com_login_com_e_senha_com(String nome, String login, String senha) throws Exception {
-        julioPage.preencheNome(nome);
-        julioPage.preencheLoginCadastro(login);
-        julioPage.preencheSenhaCadastro(senha);
+
     }
 
     @When("^eu clicar em SAVE$")
     public void eu_clicar_em_SAVE() throws Exception {
-        julioPage.clicaEmSave();
     }
 
     @Then("^eu fico logado no site$")
     public void eu_fico_logado_no_site() throws Exception {
-        julioPage.validaLogin();
     }
 }

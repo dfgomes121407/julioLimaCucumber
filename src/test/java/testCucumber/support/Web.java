@@ -11,6 +11,7 @@ public class Web {
         WebDriver navegador = new ChromeDriver();
         navegador.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
         navegador.manage().window().maximize();
+
         return navegador;
     }
 }

@@ -1,57 +1,51 @@
 package testCucumber.steps;
 
+import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import testCucumber.Hooks;
-import testCucumber.pageobjetcs.JulioPage;
+import testCucumber.pageobjetcs.ModalAdicionaContato;
+import testCucumber.pageobjetcs.PaginaDeLogin;
+import testCucumber.pageobjetcs.PaginaLogado;
+
+import java.io.IOException;
 
 public class AdicionaDadosSteps {
 
-    JulioPage julioPage = new JulioPage(Hooks.getNavegador());
+    PaginaDeLogin paginaDeLogin = new PaginaDeLogin(Hooks.getNavegador());
+    PaginaLogado paginaLogado = new PaginaLogado(Hooks.getNavegador());
+    ModalAdicionaContato modalAdicionaContato = new ModalAdicionaContato(Hooks.getNavegador());
 
-    @Given("^que esteja logado no site$")
-    public void que_esja_logado_no_site() throws Exception {
-        julioPage.acessaSite("http://www.juliodelima.com.br/taskit/");
-        julioPage.clicaEmSingIn();
-        julioPage.preencheLogin("dieGomes22");
-        julioPage.preencheSenha("123456");
-        julioPage.efetivaLogin();
-    }
-
-    @When("^eu clicar no mome do usuario logado$")
-    public void eu_clicar_no_mome_do_usuario_logado() throws Exception {
-        julioPage.clicaNoNomeLogado();
-    }
-
-    @When("^eu clicar em More data about you$")
-    public void eu_clicar_em_More_data_about_you() throws Exception {
-        julioPage.clicaEmMoreDataAboutYou();
+    @Given("^que esteja logado no \"([^\"]*)\" com \"([^\"]*)\" e \"([^\"]*)\"$")
+    public void queEstejaLogadoNoComE(String site, String login, String senha) throws Throwable {
+        this.paginaDeLogin
+                .clickSignIn(site)
+                .preencheLogin(login)
+                .preencheSenha(senha)
+                .efetivaLogin();
     }
 
     @When("^eu clicar em Add more data$")
-    public void eu_clicar_em_Add_more_data() throws Exception {
-        julioPage.clicaEmAddMoreData();
+    public void euClicarEmAddMoreData() throws IOException {
+        this.paginaLogado
+                .clicaNomeUsuarioLogado()
+                .clicaEmMoreDataAboutYou()
+                .clicaEmAddMoreData();
     }
 
-    @Then("^eu cosigo selecionar o tipo com \"([^\"]*)\"$")
-    public void eu_cosigo_selecionar_o_tipo_com(String tipo) throws Exception {
-        julioPage.selecionaDropDonw(tipo);
+    @And("^selecionar o tipo com \"([^\"]*)\", preencher com o campo contacto com \"([^\"]*)\"$")
+    public void selecionarOTipoComPreencherComOCampoContactoCom(String tipo, String contato) throws Throwable {
+        this.modalAdicionaContato
+                .selecionaTipo(tipo)
+                .preencheContato(contato)
+                .clicaEmSave();
     }
 
-    @Then("^eu consigo preencher com o campo contacto com \"([^\"]*)\"$")
-    public void eu_consigo_preencher_com_o_campo_contacto_com(String contato) throws Exception {
-        julioPage.preencheContato(contato);
-    }
-
-    @And("^eu clico em SAVE$")
-    public void euClicoEmSAVE() throws InterruptedException {
-        julioPage.salvaContatoCadastrado();
-    }
-
-    @Then("^eu vejo um pop com a mensagem \"([^\"]*)\"$")
-    public void eu_vejo_um_pop_com_a_mensagem(String mensagem) throws Exception {
-        julioPage.validaPopUpInclusao(mensagem);
+    @Then("^eu vejo um pop-up com a mensagem \"([^\"]*)\"$")
+    public void euVejoUmPopUpComAMensagem(String mensagem) throws Throwable {
+        this.paginaLogado
+                .validaPopUpDeInclusao(mensagem);
     }
 }
