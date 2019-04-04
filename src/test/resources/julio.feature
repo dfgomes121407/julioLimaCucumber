@@ -5,13 +5,10 @@ Feature: Curso de automacao Udemy
     Given que eu acesse o site "http://www.juliodelima.com.br/taskit/"
     When eu clicar no botao cadastro
     And eu preencher os campos nome com "<name>", login com "<login>" e senha com "<senha>"
-    And eu clicar em SAVE
-    Then eu fico logado no site
+    Then eu clico em SAVE e fico logado no site
     Examples:
       | name  | login      | senha  |
-      | Diego | dieGomes22 | 123456 |
-      | Diego | dieGomes23 | 123456 |
-
+      | Diego | dieGomes24 | 123456 |
 
   @EfetuarLogin
   Scenario Outline: Login

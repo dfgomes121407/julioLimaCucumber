@@ -5,12 +5,10 @@ Feature: Curso de automacao Udemy
     Given que eu acesse o site "http://www.juliodelima.com.br/taskit/"
     When eu clicar no botao cadastro
     And eu preencher os campos nome com "<name>", login com "<login>" e senha com "<senha>"
-    And eu clicar em SAVE
-    Then eu fico logado no site
+    Then eu clico em SAVE e fico logado no site
     Examples:
       | name  | login      | senha  |
-      | Diego | dieGomes22 | 123456 |
-      | Diego | dieGomes23 | 123456 |
+      | Diego | dieGomes24 | 123456 |
 
 
   @EfetuarLogin
@@ -23,8 +21,7 @@ Feature: Curso de automacao Udemy
       | login | senha |
       |dieGomes22|123456|
 
-
-  @validacao
+  @inclusao
   Scenario Outline: Adiciona Dados
     Given que esteja logado no "http://www.juliodelima.com.br/taskit/" com "<usuario>" e "<senha>"
     When eu clicar em Add more data
@@ -35,7 +32,7 @@ Feature: Curso de automacao Udemy
       |dieGomes22|123456|phone |222222222|
       |dieGomes22|123456|email |3333@teste.com|
 
-  @validacao
+  @exclusao
   Scenario Outline: Excluir Contato
     Given que esteja logado no "http://www.juliodelima.com.br/taskit/" com "<usuario>" e "<senha>"
     When  eu clicar em More data about you
