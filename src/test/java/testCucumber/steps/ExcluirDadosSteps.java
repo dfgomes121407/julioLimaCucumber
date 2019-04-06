@@ -31,7 +31,8 @@ public class ExcluirDadosSteps {
     @Then("^eu vejo um pop com a mensagem de exclusao$")
     public void eu_vejo_um_pop_com_a_mensagem_de_exclusao() throws Exception {
         this.paginaLogado
-                .validaPopUpExclusao(tipoContatoQueSeraExcluido);
+                .validaPopUpExclusao(tipoContatoQueSeraExcluido)
+                .efetuaLogof();
     }
 
 

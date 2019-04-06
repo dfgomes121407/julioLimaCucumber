@@ -34,5 +34,7 @@ public class LoginSteps {
     public void euRealizoLoginNoSite() throws IOException {
         this.paginaLogado
             .ConfirmaLogin();
+        this.paginaLogado
+            .efetuaLogof();
     }
 }

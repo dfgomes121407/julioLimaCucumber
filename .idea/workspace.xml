@@ -2,133 +2,139 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b5e55dc-2f60-4cf4-9edf-ac0c14a55d0a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../inmetrics/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testExercicios/Exercicio01a_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testExercicios/Exercicio01b_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testExercicios/Exercicio01c_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testExercicios/Exercicio1d_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testExercicios/Exercicio1e_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/CalculadoraTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Execercio02a.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Execercio02b.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Execercio02c.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Execercio02d.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Execercio02e.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Execercio02f.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Exercicio01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Exercicio03a.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Exercicio03b.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Exercicio03c.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Exercicio04Ju.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Exercicio04a.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Exercicio04b.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Exercicio04c.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Exercicio04d.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/Exercicio04e.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/OlaMundo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/TestVariaveis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/TestaCondicionais.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/java_basico/model/Calculadora.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/orientacao_objeto/Autenticavel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/orientacao_objeto/Cliente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/orientacao_objeto/Conta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/orientacao_objeto/ControleDeBonificacoes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/orientacao_objeto/Dev.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/orientacao_objeto/Diretor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/orientacao_objeto/Funcionario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/orientacao_objeto/Gerente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/orientacao_objeto/TestaConta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/src/test/java/testSakurai/orientacao_objeto/TestaFuncionario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/META-INF/inm.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testExercicios/Exercicio01a_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testExercicios/Exercicio01b_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testExercicios/Exercicio01c_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testExercicios/Exercicio1d_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testExercicios/Exercicio1e_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/CalculadoraTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Execercio02a.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Execercio02b.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Execercio02c.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Execercio02d.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Execercio02e.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Execercio02f.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Exercicio01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Exercicio03a.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Exercicio03b.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Exercicio03c.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Exercicio04Ju.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Exercicio04a.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Exercicio04b.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Exercicio04c.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Exercicio04d.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/Exercicio04e.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/OlaMundo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/TestVariaveis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/TestaCondicionais.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/java_basico/model/Calculadora.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/orientacao_objeto/Autenticavel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/orientacao_objeto/Cliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/orientacao_objeto/Conta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/orientacao_objeto/ControleDeBonificacoes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/orientacao_objeto/Dev.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/orientacao_objeto/Diretor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/orientacao_objeto/Funcionario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/orientacao_objeto/Gerente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/orientacao_objeto/TestaConta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inmetrics/target/test-classes/testSakurai/orientacao_objeto/TestaFuncionario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/libraries/junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/sonarlint/issuestore/0/9/09d3c97143395edab7deebe96b481093d08568bd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/sonarlint/issuestore/2/5/258c167714a19f8e4f206def0354aa15c438fa34" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/sonarlint/issuestore/2/9/29c49cf01d84cc2fc08e6b2a9caac4ec486529a3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/sonarlint/issuestore/3/4/34bbc01361ae7956125c2642644bdf8799cd501b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/sonarlint/issuestore/3/b/3befe04933998c643a81e83c363cad2994496282" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/sonarlint/issuestore/4/6/462f4bd85dc9083839378d7fa79986050f95c562" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/sonarlint/issuestore/4/9/49230b9fa351d609d7ca15edec5ff49c1edfb96c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/sonarlint/issuestore/4/9/499678e57228c76f9c1a52be93d4f3a1334201e0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/sonarlint/issuestore/5/5/55dd3eaed7baa5f53562cb294441a0b689ae40ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/sonarlint/issuestore/5/c/5c195f453c68ce1b1d6909554e1de06776187ee0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/sonarlint/issuestore/6/0/60e37570753c1a801d1d629541e7df6d6881b0b1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/sonarlint/issuestore/9/1/91d2b9605c5474b4f6f8e76c19733f4c60eedbea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/sonarlint/issuestore/a/5/a5c34aa1c172d96c39b9f8f437a85f34e70a303b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/sonarlint/issuestore/a/5/a5d0d1533b717360fa2effe5d720683f369e5f03" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/sonarlint/issuestore/a/b/abf16334cbcceac7bea56d2b10d6973f31a51ec8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/sonarlint/issuestore/c/5/c5ae6fc8fa42f4529c594eed9bc9d5c0aad7846a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/sonarlint/issuestore/d/6/d647784779533e7ba850ea217a4b2d44d39dbe45" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/sonarlint/issuestore/e/0/e008bdd3589a9624ad43dfe7f4aa12d165cd084a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/sonarlint/issuestore/e/6/e6b4aeb530fc311ae4f70fb5cd9cd512ba9aafaa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/sonarlint/issuestore/f/7/f7b3e0a49f7c428892a641b908b8eff5fcc4da54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/sonarlint/issuestore/f/d/fda2a9defac0f3c6de42637babc72e24ef9a80df" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/inmTreinamento.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/out/production/InmTreinamento/model/Calculadora.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/out/production/InmTreinamento/treinamento/CalculadoraTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/out/production/InmTreinamento/treinamento/Execercio02a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/out/production/InmTreinamento/treinamento/Execercio02b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/out/production/InmTreinamento/treinamento/Execercio02c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/out/production/InmTreinamento/treinamento/Execercio02d.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/out/production/InmTreinamento/treinamento/Execercio02e.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/out/production/InmTreinamento/treinamento/Execercio02f.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/out/production/InmTreinamento/treinamento/Exercicio01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/out/production/InmTreinamento/treinamento/Exercicio03a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/out/production/InmTreinamento/treinamento/Exercicio03b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/out/production/InmTreinamento/treinamento/Exercicio03c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/out/production/InmTreinamento/treinamento/Exercicio04Ju.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/out/production/InmTreinamento/treinamento/Exercicio04a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/out/production/InmTreinamento/treinamento/Exercicio04b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/out/production/InmTreinamento/treinamento/Exercicio04c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/out/production/InmTreinamento/treinamento/Exercicio04d.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/out/production/InmTreinamento/treinamento/Exercicio04e.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/out/production/InmTreinamento/treinamento/OlaMundo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/out/production/InmTreinamento/treinamento/TestVariaveis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/out/production/InmTreinamento/treinamento/TestaCondicionais.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/src/model/Calculadora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/src/treinamento/CalculadoraTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/src/treinamento/Execercio02a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/src/treinamento/Execercio02b.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/src/treinamento/Execercio02c.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/src/treinamento/Execercio02d.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/src/treinamento/Execercio02e.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/src/treinamento/Execercio02f.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/src/treinamento/Exercicio01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/src/treinamento/Exercicio03a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/src/treinamento/Exercicio03b.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/src/treinamento/Exercicio03c.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/src/treinamento/Exercicio04Ju.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/src/treinamento/Exercicio04a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/src/treinamento/Exercicio04b.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/src/treinamento/Exercicio04c.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/src/treinamento/Exercicio04d.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/src/treinamento/Exercicio04e.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/src/treinamento/OlaMundo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/src/treinamento/TestVariaveis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InmTreinamento2/src/treinamento/TestaCondicionais.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inm/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inm/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inm/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inm/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inm/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inm/inm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inm/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmTreinamento/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetricsTreinamento/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetricsTreinamento/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetricsTreinamento/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetricsTreinamento/.idea/sonarlint/issuestore/0/9/0956fbf1478ad361342a7b371aabb148cba04afd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetricsTreinamento/.idea/sonarlint/issuestore/1/a/1a9644e3384fe8ad5aaf62ee636c4775ccdb0e89" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetricsTreinamento/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetricsTreinamento/.idea/sonarlint/issuestore/b/d/bd71e0b1bad25ebe36309c8d9da3f9935473135a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetricsTreinamento/.idea/sonarlint/issuestore/c/2/c27adf499edd53444cbf3b6ba89029c10b9ad074" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetricsTreinamento/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetricsTreinamento/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetricsTreinamento/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetricsTreinamento/inmTreinamento.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetricsTreinamento/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetricsTreinamento/src/test/java/test/Exercicio01a_Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetricsTreinamento/src/test/java/test/Exercicio01b_Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetricsTreinamento/src/test/java/test/Exercicio01c_Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetricsTreinamento/src/test/java/test/Exercicio1d_Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetricsTreinamento/src/test/java/test/Exercicio1e_Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetricsTreinamento/target/test-classes/test/Exercicio01a_Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetricsTreinamento/target/test-classes/test/Exercicio01b_Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetricsTreinamento/target/test-classes/test/Exercicio01c_Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetricsTreinamento/target/test-classes/test/Exercicio1d_Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inmetricsTreinamento/target/test-classes/test/Exercicio1e_Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f4ff34c85484f85ecbaa566a37ee2f66eb1e5ffe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evidencias/04042019095634clickSignIn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/evidencias/04042019095635preencheSenha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/evidencias/04042019095637clicaNomeUsuarioLogado.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/evidencias/04042019095637preencheContato.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/evidencias/04042019095638validaPopUpDeInclusao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/evidencias/04042019095650clickSignIn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/evidencias/04042019095651preencheSenha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/evidencias/04042019095653clicaNomeUsuarioLogado.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/evidencias/04042019095654preencheContato.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/evidencias/04042019095655validaPopUpDeInclusao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/evidencias/04042019095707clickSignIn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/evidencias/04042019095707preencheSenha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/evidencias/04042019095709clicaNomeUsuarioLogado.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/evidencias/04042019095710validaPopUpExclusao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/evidencias/04042019095722clickSignIn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/evidencias/04042019095724preencheSenha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/evidencias/04042019095726clicaNomeUsuarioLogado.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/evidencias/04042019095727validaPopUpExclusao.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testCucumber/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCucumber/RunTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/JulioPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/JulioPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/PaginaDeLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/PaginaDeslogado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/PaginaLogado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/PaginaLogado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testCucumber/steps/AdicionaDadosSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCucumber/steps/AdicionaDadosSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testCucumber/steps/CadastroSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCucumber/steps/CadastroSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCucumber/steps/ExcluirDadosSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCucumber/steps/ExcluirDadosSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testCucumber/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCucumber/steps/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCucumber/support/Screenshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCucumber/support/Screenshot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCucumber/support/Web.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCucumber/support/Web.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/julio.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/julio.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webdriver/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webdriver/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webdriver/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webdriver/.idea/sonarlint/issuestore/0/9/09b6ed895db13f814e7bd35c5c7651c03d685d8f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webdriver/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webdriver/.idea/sonarlint/issuestore/5/7/5782ba045ff1a2ed84d36149d844b000ef0ce0d6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webdriver/.idea/sonarlint/issuestore/e/e/ee98fd3cc6a872f3d781fe2c1b33f6bfadf92a80" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webdriver/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webdriver/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webdriver/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webdriver/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webdriver/src/test/java/test/InformacoesUsuariosTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webdriver/src/test/java/test/LoginStarTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webdriver/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webdriver/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webdriver/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webdriver/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webdriver/target/test-classes/test/InformacoesUsuariosTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webdriver/target/test-classes/test/LoginStarTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webdriver/target/webdriver-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webdriver/webdriver.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/julioLimaCucumber.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/julio.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/julio.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testCucumber/pageobjetcs/JulioPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver-java/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver-java/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver-java/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver-java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver-java/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver-java/.idea/sonarlint/issuestore/6/f/6fba48d0f73f21a4751966c04c7ae1c25b9dda12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver-java/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver-java/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver-java/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver-java/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver-java/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver-java/src/test/java/tests/InformacoesUsuariosTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver-java/target/test-classes/META-INF/webdriver-java.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver-java/target/test-classes/tests/InformacoesUsuariosTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriver-java/webdriver-java.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -146,7 +152,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/RunTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+              <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,60 +161,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/PaginaLogado.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/julio.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="982">
-              <caret line="69" column="53" lean-forward="true" selection-start-line="69" selection-start-column="53" selection-end-line="69" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="167">
+              <caret line="12" column="15" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/julio.feature">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/steps/LoginSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#464#730#0" />
-                <element signature="e#734#1221#0" />
-                <element signature="e#1225#1661#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/steps/CadastroSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/PaginaDeslogado.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/JulioPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="439">
+              <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -240,24 +205,24 @@
         <option value="$PROJECT_DIR$/src/test/java/testCucumber/AddEmail.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/testCucumber/support/Generator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testCucumber/support/Screenshot.java" />
         <option value="$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/CadastroPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/FormLoginPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testCucumber/support/Web.java" />
         <option value="$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/LogonPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/testCucumber/Hooks.java" />
         <option value="$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/LoginPageForm.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testCucumber/steps/LoginSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/ModalAdicionaContato.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testCucumber/steps/AdicionaDadosSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testCucumber/steps/ExcluirDadosSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/PaginaLogado.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testCucumber/RunTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/JulioPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/PaginaDeslogado.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testCucumber/steps/CadastroSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testCucumber/support/Web.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testCucumber/support/Screenshot.java" />
         <option value="$PROJECT_DIR$/src/test/resources/julio.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/PaginaLogado.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testCucumber/RunTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testCucumber/steps/AdicionaDadosSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testCucumber/steps/CadastroSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testCucumber/steps/ExcluirDadosSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testCucumber/steps/LoginSteps.java" />
       </list>
     </option>
   </component>
@@ -282,6 +247,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -330,19 +296,29 @@
               <item name="julioLimaCucumber" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testCucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="julioLimaCucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="julioLimaCucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testCucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553882575473" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -362,24 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Efetuar Cadastro">
-    <configuration name="Feature: cadastro" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/cadastro.feature" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="julioLimaCucumber" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: cadastro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RunTest">
     <configuration name="Scenario: Adiciona Dados" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/julio.feature" />
@@ -437,6 +396,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/julio.feature" />
+      <option name="GLUE" value="testCucumber" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="julioLimaCucumber" />
+      <option name="NAME_FILTER" value="^Login$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^Login$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RunTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="julioLimaCucumber" />
       <extension name="coverage">
@@ -454,11 +432,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Scenario: Efetuar Cadastro" />
         <item itemvalue="JUnit.RunTest" />
+        <item itemvalue="Cucumber java.Scenario: Login" />
+        <item itemvalue="Cucumber java.Scenario: Efetuar Cadastro" />
         <item itemvalue="Cucumber java.Scenario: Excluir Contato" />
         <item itemvalue="Cucumber java.Scenario: Adiciona Dados" />
-        <item itemvalue="Cucumber java.Feature: cadastro" />
       </list>
     </recent_temporary>
   </component>
@@ -476,34 +454,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunTest - 2019.04.03 at 16h 07m 30s.xml">
+    <history-entry file="RunTest - 2019.04.06 at 10h 03m 01s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2019.04.03 at 16h 20m 47s.xml">
+    <history-entry file="RunTest - 2019.04.06 at 10h 06m 01s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2019.04.04 at 09h 03m 03s.xml">
+    <history-entry file="RunTest - 2019.04.06 at 10h 07m 18s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Adiciona_Dados - 2019.04.04 at 09h 05m 07s.xml">
-      <configuration name="Scenario: Adiciona Dados" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Excluir_Contato - 2019.04.04 at 09h 42m 47s.xml">
-      <configuration name="Scenario: Excluir Contato" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Excluir_Contato - 2019.04.04 at 09h 44m 32s.xml">
-      <configuration name="Scenario: Excluir Contato" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Excluir_Contato - 2019.04.04 at 09h 48m 32s.xml">
-      <configuration name="Scenario: Excluir Contato" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="RunTest - 2019.04.04 at 09h 50m 17s.xml">
+    <history-entry file="RunTest - 2019.04.06 at 10h 08m 21s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2019.04.04 at 09h 54m 35s.xml">
+    <history-entry file="RunTest - 2019.04.06 at 10h 11m 41s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunTest - 2019.04.04 at 09h 57m 36s.xml">
+    <history-entry file="Scenario__Efetuar_Cadastro - 2019.04.06 at 10h 14m 20s.xml">
+      <configuration name="Scenario: Efetuar Cadastro" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Login - 2019.04.06 at 10h 15m 01s.xml">
+      <configuration name="Scenario: Login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Login - 2019.04.06 at 10h 16m 03s.xml">
+      <configuration name="Scenario: Login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="RunTest - 2019.04.06 at 10h 25m 31s.xml">
+      <configuration name="RunTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunTest - 2019.04.06 at 10h 27m 24s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -517,16 +495,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" weight="0.2291498" />
-      <window_info id="Structure" order="1" sideWeight="0.5023148" side_tool="true" weight="0.1566618" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Structure" order="0" sideWeight="0.5023148" side_tool="true" weight="0.1566618" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.4976852" visible="true" weight="0.22844176" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39851025" />
@@ -538,7 +516,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32774675" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32774675" />
       <window_info anchor="bottom" id="SonarLint" order="10" weight="0.32774675" />
-      <window_info anchor="bottom" x="0" y="246" width="1280" height="434" id="Run" order="11" type="FLOATING" weight="0.5991903" />
+      <window_info anchor="bottom" x="36" y="215" width="1280" height="434" id="Run" order="11" weight="0.5982906" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -549,7 +527,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.2291498" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.22844176" />
       <window_info id="Structure" order="1" sideWeight="0.5023148" side_tool="true" weight="0.1566618" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -567,7 +545,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32774675" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32774675" />
       <window_info anchor="bottom" id="SonarLint" order="10" weight="0.32774675" />
-      <window_info anchor="bottom" x="0" y="246" width="1280" height="434" id="Run" order="11" type="FLOATING" weight="0.5991903" />
+      <window_info anchor="bottom" x="36" y="215" width="1280" height="434" id="Run" order="11" weight="0.5982906" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -619,30 +597,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/evidencias/29032019171456validaPopUpExclusao.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/support/Generator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/CadastroPage.java" />
-    <entry file="file://$PROJECT_DIR$/evidencias/02042019163203setUrl.png" />
-    <entry file="file://$PROJECT_DIR$/evidencias/02042019163204preencheSenhaCadastro.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/support/Screenshot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/evidencias/02042019163449acessaSite.png" />
     <entry file="file://$PROJECT_DIR$/evidencias/02042019163450preencheSenhaCadastro.png" />
     <entry file="file://$PROJECT_DIR$/evidencias/02042019163452validaLogin.png" />
@@ -653,13 +607,6 @@
     <entry file="file://$PROJECT_DIR$/evidencias/03042019090954acessaSite.png" />
     <entry file="file://$PROJECT_DIR$/evidencias/03042019090957validaPopUpExclusao.png" />
     <entry file="file://$PROJECT_DIR$/evidencias/03042019091009acessaSite.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/support/Web.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/Hooks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -676,40 +623,10 @@
     <entry file="file://$PROJECT_DIR$/evidencias/03042019160618ConfirmaLogin.png" />
     <entry file="file://$PROJECT_DIR$/evidencias/03042019155230clickSignIn.png" />
     <entry file="file://$PROJECT_DIR$/evidencias/03042019160616clickSignIn.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/PaginaDeLoginForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/PaginaDeLoginForm.java" />
     <entry file="file://$PROJECT_DIR$/evidencias/04042019090459validaPopUpDeInclusao.png" />
     <entry file="file://$PROJECT_DIR$/evidencias/04042019090456preencheSenha.png" />
     <entry file="file://$PROJECT_DIR$/evidencias/04042019090455clickSignIn.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/steps/LoginSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/steps/AdicionaDadosSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/evidencias/04042019094949clickSignIn.png" />
     <entry file="file://$PROJECT_DIR$/evidencias/04042019094949preencheSenha.png" />
     <entry file="file://$PROJECT_DIR$/evidencias/04042019094951clicaNomeUsuarioLogado.png" />
@@ -725,30 +642,69 @@
     <entry file="file://$PROJECT_DIR$/evidencias/04042019095425clicaNomeUsuarioLogado.png" />
     <entry file="file://$PROJECT_DIR$/evidencias/04042019095423preencheSenha.png" />
     <entry file="file://$PROJECT_DIR$/evidencias/04042019095422clickSignIn.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/ModalAdicionaContato.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/steps/ExcluirDadosSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/JulioPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/ModalAdicionaContato.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/JulioPage.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/support/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/support/Screenshot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="106" lean-forward="true" selection-start-line="15" selection-start-column="106" selection-end-line="15" selection-end-column="106" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/support/Web.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/PaginaDeslogado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evidencias/06042019101416preencheCampoSenha.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evidencias/06042019101417ConfirmaLogin.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/PaginaLogado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="92" column="38" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evidencias/06042019102519preencheCampoSenha.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/steps/AdicionaDadosSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -758,27 +714,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/RunTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/PaginaLogado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="982">
-          <caret line="69" column="53" lean-forward="true" selection-start-line="69" selection-start-column="53" selection-end-line="69" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/pageobjetcs/PaginaDeslogado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -787,8 +723,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/steps/CadastroSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="388">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/steps/ExcluirDadosSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -797,12 +743,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/julio.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="167">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testCucumber/steps/LoginSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
           <folding>
-            <element signature="e#464#730#0" />
-            <element signature="e#734#1221#0" />
-            <element signature="e#1225#1661#0" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -17,8 +17,6 @@ P
  src/test/resources/julio.feature,7\4\74446cda0d4bea9d3316b3b1b64f71eeec0d9d48
 h
 8src/test/java/testCucumber/steps/AdicionaDadosSteps.java,7\9\7953e864cd3a80d5555bb490cb0c383e06d62331
-e
-5src/test/java/testCucumber/pageobjetcs/JulioPage.java,f\4\f4ff34c85484f85ecbaa566a37ee2f66eb1e5ffe
 a
 1src/test/java/testCucumber/support/Generator.java,b\c\bcaddc88dd91a69c1d7715999b24bf050b70d51a
 b

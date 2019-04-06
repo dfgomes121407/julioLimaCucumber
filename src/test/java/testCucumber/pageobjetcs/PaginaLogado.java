@@ -89,4 +89,10 @@ public class PaginaLogado {
 
         return this;
     }
+
+    public PaginaDeslogado efetuaLogof(){
+        navegador.findElement(By.linkText("Logout")).click();
+
+        return new PaginaDeslogado(navegador);
+    }
 }

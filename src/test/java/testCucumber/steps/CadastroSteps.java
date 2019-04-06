@@ -5,11 +5,13 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import testCucumber.Hooks;
 import testCucumber.pageobjetcs.PaginaDeslogado;
+import testCucumber.pageobjetcs.PaginaLogado;
 
 import java.io.IOException;
 
 public class CadastroSteps {
     PaginaDeslogado paginaDeslogado = new PaginaDeslogado(Hooks.getNavegador());
+    PaginaLogado paginaLogado = new PaginaLogado(Hooks.getNavegador());
 
     @Given("^que eu acesse o site \"([^\"]*)\"$")
     public void que_eu_acesse_o_site(String url) throws Exception {
@@ -36,5 +38,8 @@ public class CadastroSteps {
         this.paginaDeslogado
                 .clicaEmSave()
                 .ConfirmaLogin();
+
+        this.paginaLogado
+                .efetuaLogof();
     }
 }

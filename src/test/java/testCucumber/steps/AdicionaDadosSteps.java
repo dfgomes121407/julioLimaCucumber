@@ -45,6 +45,7 @@ public class AdicionaDadosSteps {
     @Then("^eu vejo um pop-up com a mensagem \"([^\"]*)\"$")
     public void euVejoUmPopUpComAMensagem(String mensagem) throws Throwable {
         this.paginaLogado
-                .validaPopUpDeInclusao(mensagem);
+                .validaPopUpDeInclusao(mensagem)
+                .efetuaLogof();
     }
 }

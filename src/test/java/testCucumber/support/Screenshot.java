@@ -1,7 +1,6 @@
 package testCucumber.support;
 
 import org.apache.commons.io.FileUtils;
-import org.junit.rules.TestName;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -14,7 +13,8 @@ public class Screenshot {
     public static void tiraScreenshot(WebDriver navegador, String arquivo, String qualTeste) throws IOException {
 
         File tiraScreenshot = ((TakesScreenshot)navegador).getScreenshotAs(OutputType.FILE);
-        String locaArquivo = "C:\\Users\\t1407dgf\\IdeaProjects\\julioLimaCucumber\\evidencias\\";
+        String locaArquivo = "C:\\Users\\Inmetrics.LP1439\\IdeaProjects\\julioLimaCucumber\\evidencias\\";
+
 
         FileUtils.copyFile(tiraScreenshot, new File(locaArquivo+arquivo+qualTeste+".png"));
     }

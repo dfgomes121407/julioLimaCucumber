@@ -9,7 +9,7 @@ public class Web {
     public static WebDriver getChromeDirver(){
         System.setProperty("webdriver.chrome.driver","src\\main\\resources\\drivers\\chromedriver.exe");
         WebDriver navegador = new ChromeDriver();
-        navegador.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
+        navegador.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         navegador.manage().window().maximize();
 
         return navegador;

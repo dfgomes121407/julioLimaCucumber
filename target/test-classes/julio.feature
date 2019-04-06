@@ -8,8 +8,7 @@ Feature: Curso de automacao Udemy
     Then eu clico em SAVE e fico logado no site
     Examples:
       | name  | login      | senha  |
-      | Diego | dieGomes24 | 123456 |
-
+      | Diego | dieGomes100 | 123456 |
 
   @EfetuarLogin
   Scenario Outline: Login
