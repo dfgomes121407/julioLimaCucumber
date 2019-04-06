@@ -1,0 +1,4 @@
+
+¨%squid:RedundantThrowsDeclarationCheck,"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(ØÅ”¤
+­%squid:RedundantThrowsDeclarationCheck&"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(À¥Ï™þÿÿÿÿ
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ì‹ÍŽ

@@ -21,3 +21,9 @@ a
 1src/test/java/testCucumber/support/Generator.java,b\c\bcaddc88dd91a69c1d7715999b24bf050b70d51a
 b
 2src/test/java/testCucumber/support/Screenshot.java,3\1\3113a078f4f43414c3066f10da0e5eb16c912134
+k
+;src/test/java/testCucumber/pageobjetcs/PaginaDeslogado.java,f\c\fcd11dee1b99e33173cda96ee656a254dc152bb7
+h
+8src/test/java/testCucumber/pageobjetcs/PaginaLogado.java,0\3\035615542b8ddee42738d4a1d2fef4b109e4ff7e
+g
+7src/test/java/testCucumber/steps/ExcluirDadosSteps.java,4\7\47de5376c078ca7ae0ea5f9ae7ce032b8a8719d5
